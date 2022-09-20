@@ -1,0 +1,419 @@
+1.triangle smiley
+
+int main()
+{
+char i,j,temp;
+for(j=1;j<=4;j++)
+{
+    temp="A";
+    for(i=1;i<=4;i++)
+    {
+        if(i>=5-j)
+        {
+            printf("%c",temp);
+            temp++;
+        }
+        else
+            {
+                printf(" ");
+            }
+    }
+    temp=temp-2;
+    for(;i<=3+j;i++)
+    {
+        printf("%c",temp);
+        temp--;
+
+
+    }
+    printf("\n");
+}
+
+return 0;
+}
+
+2.
+1.m smiley
+int main()
+{
+  char i,j,temp;
+  for(j=1;j<=4;j++)
+ {
+  for(i=1;i<=5-j;i++)
+  {
+     printf("%c",i);
+     if(i!=4)
+     {
+       temp=i;
+     }
+
+  }
+  for(;i<=7;i++)
+  {
+    if(i>=j+3)
+    {
+        printf("%c",temp);
+        temp--;
+    }
+    else
+    {
+      printf(" ");
+    }
+  }
+  printf("\n");
+  }
+  return 0;
+}
+
+3.ULTA TRIANGLE SMILEY
+
+int main()
+{
+char i,j,temp;
+for(j=1;j<=4;j++)
+{
+    temp="A";
+    for(i=1;i<=4;i++)
+    {
+        if(i>=j)
+        {
+            printf("%c",temp);
+            temp++;
+        }
+        else
+            {
+                printf(" ");
+            }
+    }
+    temp=temp-2;
+    for(i=1;i<=4-j;i++)
+    {
+        printf("%c",temp);
+        temp--;
+
+
+    }
+    printf("\n");
+}
+
+return 0;
+}
+
+4.diamond
+
+int main()
+{
+int i,j;
+char c=4;
+for(j=1;j<=5;j++)
+{
+    for(i=1;i<=j+4;i++)
+    {
+        if((i>=6-j)&&(i<=j+4))
+        {
+            printf("%c",c);
+        }
+        else
+            {
+                printf(" ");
+            }
+    }
+    printf("\n");
+
+}
+for(j=6;j<=9;j++)
+{
+    for(i=1;i<=14-j;i++)
+    {
+        if((i>=j-4)&&(i<=14-j))
+        {
+            printf("%c",c);
+        }
+        else
+        {
+            printf(" ");
+        }
+    }
+    printf("\n");
+}
+
+return 0;
+}
+
+5.music in heart (sathvik)
+int main()
+{
+int i,j;
+char c=14;
+for(j=1;j<=3;j++)
+{
+    for(i=1;i<=19;i++)
+    {   if(((i>=4-j)&&(i<=j+6))||((i>=14-j)&&(i<=16+j)))
+          {
+              printf("%c",c);
+
+           }
+           else
+            {
+                printf(" ");
+            }
+    }
+    printf("\n");
+}
+for(j=4;j<=4;j++)
+{
+    for(i=1;i<=19;i++)
+      {
+        if(((i>=1)&&(i<=6))||((i>=14)&&(i<=19)))
+               {
+                   printf("%c",c);
+               }
+
+               else if(i==7)
+               {
+                   printf("S");
+               }
+                  else if(i==8)
+               {
+                   printf("A");
+               }
+                    else if(i==9)
+               {
+                   printf("T");
+               }
+                    else if(i==10)
+               {
+                   printf("H");
+               }
+                    else if(i==11)
+               {
+                   printf("V");
+               }
+                    else if(i==12)
+               {
+                   printf("I");
+               }
+               else if(i==13)
+               {
+                   printf("K");
+               }
+
+
+           else
+            {
+             printf(" ");
+           }
+     }
+
+    printf("\n");
+   }
+
+    for(j=5;j<=13;j++)
+    {
+        for(i=1;i<=19;i++)
+        {
+
+    if((i>=j-3)&&(i<=23-j))
+        {
+            printf("%c",c);
+        }
+        else
+        {
+            printf(" ");
+        }
+       }
+       printf("\n");
+    }
+
+
+return 0;
+}
+
+6.haert in heart mysirg
+int main()
+{
+int i,j;
+char c=3;
+for(j=1;j<=3;j++)
+{
+    for(i=1;i<=19;i++)
+    {   if(((i>=4-j)&&(i<=j+6))||((i>=14-j)&&(i<=16+j)))
+          {
+              printf("%c",c);
+
+           }
+           else
+            {
+                printf(" ");
+            }
+    }
+    printf("\n");
+}
+for(j=4;j<=4;j++)
+{
+    for(i=1;i<=19;i++)
+      {
+        if(((i>=1)&&(i<=6))||((i>=13)&&(i<=19)))
+               {
+                   printf("%c",c);
+               }
+
+               else if(i==7)
+               {
+                   printf("M");
+               }
+                  else if(i==8)
+               {
+                   printf("Y");
+               }
+                    else if(i==9)
+               {
+                   printf("S");
+               }
+                    else if(i==10)
+               {
+                   printf("I");
+               }
+                    else if(i==11)
+               {
+                   printf("R");
+               }
+                    else if(i==12)
+               {
+                   printf("G");
+               }
+
+
+           else
+            {
+             printf(" ");
+           }
+     }
+
+    printf("\n");
+   }
+
+    for(j=5;j<=13;j++)
+    {
+        for(i=1;i<=19;i++)
+        {
+
+    if((i>=j-3)&&(i<=23-j))
+        {
+            printf("%c",c);
+        }
+        else
+        {
+            printf(" ");
+        }
+       }
+       printf("\n");
+    }
+
+
+return 0;
+}
+
+7.music in heart, sathvik
+
+int main()
+{
+int i,j;
+char c=14;
+for(j=1;j<=3;j++)
+{
+    for(i=1;i<=19;i++)
+    {   if(((i>=4-j)&&(i<=j+6))||((i>=14-j)&&(i<=16+j)))
+          {
+              printf("%c",c);
+
+           }
+           else
+            {
+                printf(" ");
+            }
+    }
+    printf("\n");
+}
+for(j=4;j<=4;j++)
+{
+    for(i=1;i<=19;i++)
+      {
+        if(((i>=1)&&(i<=6))||((i>=14)&&(i<=19)))
+               {
+                   printf("%c",c);
+               }
+
+               else if(i==7)
+               {
+                   printf("S");
+               }
+                  else if(i==8)
+               {
+                   printf("A");
+               }
+                    else if(i==9)
+               {
+                   printf("T");
+               }
+                    else if(i==10)
+               {
+                   printf("H");
+               }
+                    else if(i==11)
+               {
+                   printf("V");
+               }
+                    else if(i==12)
+               {
+                   printf("I");
+               }
+               else if(i==13)
+               {
+                   printf("K");
+               }
+
+
+           else
+            {
+             printf(" ");
+           }
+     }
+
+    printf("\n");
+   }
+
+    for(j=5;j<=13;j++)
+    {
+        for(i=1;i<=19;i++)
+        {
+
+    if((i>=j-3)&&(i<=23-j))
+        {
+            printf("%c",c);
+        }
+        else
+        {
+            printf(" ");
+        }
+       }
+       printf("\n");
+    }
+
+
+return 0;
+}
+
+8.
+
+
+
+
+
+
+
+
+
+
+
+
